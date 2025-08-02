@@ -1,3 +1,4 @@
+const fetch = require('node-fetch');
 const AUTH_URL = "http://20.244.56.144/evaluation-service/auth";
 const LOGS_URL = "http://20.244.56.144/evaluation-service/logs";
 const authPayload = {
